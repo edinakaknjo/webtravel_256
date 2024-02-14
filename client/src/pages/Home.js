@@ -67,7 +67,7 @@ const Home = () => {
     
     return (
         <div>
-        <h1>Home</h1>
+        <h1>Dostupna putovanja:</h1>
         <button className='komande' onClick={handleLogout}>Logout</button>
         {uloga === 'admin' && (
             <>
