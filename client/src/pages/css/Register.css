@@ -1,0 +1,56 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  background-size: cover;
+}
+
+.register-title {
+  font-size: 48px; /* Increase the font size */
+  color: #333; /* Change the text color */
+  margin-bottom: 30px; /* Adjust the margin */
+}
+
+.register-input {
+  margin-bottom: 30px;
+  padding: 15px; /* Increase padding for input fields */
+  border: 2px solid #555; /* Change border color */
+  background-color: #fff; /* Change input background color */
+  color: #333;
+  font-size: 20px; /* Increase font size */
+  width: 400px; /* Adjust the width */
+  outline: none;
+}
+
+.register-input::placeholder {
+  color: #999; /* Change placeholder color */
+}
+
+.login-button,
+.register-button {
+  margin-top: 30px;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 25px;
+  background-color: black; /* Change button background color */
+  color: #fff;
+  font-size: 24px; /* Increase font size */
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.login-button:hover,
+.register-button:hover {
+  background-color: black; /* Change button hover background color */
+}
+
+/* Additional styles to align buttons side by side */
+.buttons-container {
+  display: flex;
+  margin-top: 20px; /* Adjust as needed */
+}

@@ -1,0 +1,85 @@
+.travel-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .travel-card {
+    width: 100%;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .travel-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .travel-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .travel-card div {
+    padding: 20px;
+  }
+  
+  .travel-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .travel-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .dugme-delete,
+  .dugme-join {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dugme-delete {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .dugme-join {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .dugme-delete:hover,
+  .dugme-join:hover {
+    background-color: #333;
+  }
+  
+  .komande {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .komande:hover {
+    background-color: #0056b3;
+  }
+  
+  .komande:active {
+    transform: translateY(1px);
+  }
+  
